@@ -1,15 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <title>meu portifólio</title>
 </head>
+
 <body>
-    <img src="img/6f27d8d5a002703cf4c639a7b22fa19f62afc356_00.jpg" alt="avatar da Meredith" srcset="">
-    <p>Meredith Grey</p>
-    <h1>Eu sou uma cirurgiã geral</h1>
-    <p>Sou uma cirurgiã geral e pesquisadora.</p>
+    <header class="container text-center">
+        <img src="img/6f27d8d5a002703cf4c639a7b22fa19f62afc356_00.jpg" alt="avatar da Meredith" width="180" height="250"
+            class="rounded" srcset="">
+        <p>Meredith Grey</p>
+        <h1 class="lead">Eu sou uma cirurgiã geral</h1>
+        <p>Sou uma cirurgiã geral e pesquisadora.</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge text-bg-secondary">Cirurgia geral</p>
+            <p class="badge text-bg-secondary">Pesquisa laboratorial</p>
+        </div>
+    </header>
+    <main class="container" mt-3>
+        <h2>Minhas realizações</h2>
+        <div class="row">
+            <!-- projeto 1 -->
+            <div class="col-md-6 offset-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/download.jpg" class="card-img-top" alt="Mini-fígados em nódulos linfáticos">
+                    <div class="card-body">
+                        <p class="card-text">DesenvolvI uma técnica para criar mini-fígados em nódulos linfáticos, com o
+                            objetivo de ajudar pacientes com doença hepática em estágio terminal.</p>
+                    </div>
+                </div>
+                <!-- projeto 2 -->
+                <div class="col-md-6 offset-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/download (1).jpg" class="card-img-top" alt="Pesquisa Alzheimer">
+                        <div class="card-body">
+                            <p class="card-text">Pesquisa associando o Alzheimer à formação de placas de amiloide no
+                                cérebro. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </main>
+    <footer class="container" py-5>
+        <h2>Entre em contato</h2>
+        <div>
+            <a href="https://github.com/gabylinda408/prortifolio-meredith">Github</a>
+        </div>
+        <p class="my-5"> © 2025 Meredith Grey. Todos os direitos reservados.</p>
+    </footer>
 </body>
+
 </html>
